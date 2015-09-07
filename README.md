@@ -1,0 +1,2 @@
+#GradualNavigationBar
+##简单实现NavigationBar随视图滚动而渐变背景色
