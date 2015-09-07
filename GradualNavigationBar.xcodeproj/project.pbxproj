@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F09FDDE1B9D5D42005550FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FDDD1B9D5D42005550FC /* main.m */; };
+		2F09FDE11B9D5D42005550FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FDE01B9D5D42005550FC /* AppDelegate.m */; };
+		2F09FDE41B9D5D42005550FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FDE31B9D5D42005550FC /* ViewController.m */; };
+		2F09FDE71B9D5D42005550FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F09FDE51B9D5D42005550FC /* Main.storyboard */; };
+		2F09FDE91B9D5D42005550FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F09FDE81B9D5D42005550FC /* Images.xcassets */; };
+		2F09FDEC1B9D5D42005550FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F09FDEA1B9D5D42005550FC /* LaunchScreen.xib */; };
+		2F09FDF81B9D5D42005550FC /* GradualNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FDF71B9D5D42005550FC /* GradualNavigationBarTests.m */; };
+		2F09FE041B9D834E005550FC /* UINavigationBar+GradualColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FE031B9D834E005550FC /* UINavigationBar+GradualColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F09FDF21B9D5D42005550FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F09FDD01B9D5D42005550FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F09FDD71B9D5D42005550FC;
+			remoteInfo = GradualNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F09FDD81B9D5D42005550FC /* GradualNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradualNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09FDDC1B9D5D42005550FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F09FDDD1B9D5D42005550FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F09FDDF1B9D5D42005550FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F09FDE01B9D5D42005550FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F09FDE21B9D5D42005550FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F09FDE31B9D5D42005550FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F09FDE61B9D5D42005550FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F09FDE81B9D5D42005550FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F09FDEB1B9D5D42005550FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F09FDF11B9D5D42005550FC /* GradualNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradualNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09FDF61B9D5D42005550FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F09FDF71B9D5D42005550FC /* GradualNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradualNavigationBarTests.m; sourceTree = "<group>"; };
+		2F09FE021B9D834E005550FC /* UINavigationBar+GradualColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+GradualColor.h"; sourceTree = "<group>"; };
+		2F09FE031B9D834E005550FC /* UINavigationBar+GradualColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+GradualColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F09FDD51B9D5D42005550FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09FDEE1B9D5D42005550FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F09FDCF1B9D5D42005550FC = {
+			isa = PBXGroup;
+			children = (
+				2F09FDDA1B9D5D42005550FC /* GradualNavigationBar */,
+				2F09FDF41B9D5D42005550FC /* GradualNavigationBarTests */,
+				2F09FDD91B9D5D42005550FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F09FDD91B9D5D42005550FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FDD81B9D5D42005550FC /* GradualNavigationBar.app */,
+				2F09FDF11B9D5D42005550FC /* GradualNavigationBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F09FDDA1B9D5D42005550FC /* GradualNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FE011B9D82C0005550FC /* navigationBar */,
+				2F09FDDF1B9D5D42005550FC /* AppDelegate.h */,
+				2F09FDE01B9D5D42005550FC /* AppDelegate.m */,
+				2F09FDE21B9D5D42005550FC /* ViewController.h */,
+				2F09FDE31B9D5D42005550FC /* ViewController.m */,
+				2F09FDE51B9D5D42005550FC /* Main.storyboard */,
+				2F09FDE81B9D5D42005550FC /* Images.xcassets */,
+				2F09FDEA1B9D5D42005550FC /* LaunchScreen.xib */,
+				2F09FDDB1B9D5D42005550FC /* Supporting Files */,
+			);
+			path = GradualNavigationBar;
+			sourceTree = "<group>";
+		};
+		2F09FDDB1B9D5D42005550FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FDDC1B9D5D42005550FC /* Info.plist */,
+				2F09FDDD1B9D5D42005550FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F09FDF41B9D5D42005550FC /* GradualNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FDF71B9D5D42005550FC /* GradualNavigationBarTests.m */,
+				2F09FDF51B9D5D42005550FC /* Supporting Files */,
+			);
+			path = GradualNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		2F09FDF51B9D5D42005550FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FDF61B9D5D42005550FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F09FE011B9D82C0005550FC /* navigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FE021B9D834E005550FC /* UINavigationBar+GradualColor.h */,
+				2F09FE031B9D834E005550FC /* UINavigationBar+GradualColor.m */,
+			);
+			name = navigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F09FDD71B9D5D42005550FC /* GradualNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F09FDFB1B9D5D42005550FC /* Build configuration list for PBXNativeTarget "GradualNavigationBar" */;
+			buildPhases = (
+				2F09FDD41B9D5D42005550FC /* Sources */,
+				2F09FDD51B9D5D42005550FC /* Frameworks */,
+				2F09FDD61B9D5D42005550FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradualNavigationBar;
+			productName = GradualNavigationBar;
+			productReference = 2F09FDD81B9D5D42005550FC /* GradualNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F09FDF01B9D5D42005550FC /* GradualNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F09FDFE1B9D5D42005550FC /* Build configuration list for PBXNativeTarget "GradualNavigationBarTests" */;
+			buildPhases = (
+				2F09FDED1B9D5D42005550FC /* Sources */,
+				2F09FDEE1B9D5D42005550FC /* Frameworks */,
+				2F09FDEF1B9D5D42005550FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F09FDF31B9D5D42005550FC /* PBXTargetDependency */,
+			);
+			name = GradualNavigationBarTests;
+			productName = GradualNavigationBarTests;
+			productReference = 2F09FDF11B9D5D42005550FC /* GradualNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F09FDD01B9D5D42005550FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yang;
+				TargetAttributes = {
+					2F09FDD71B9D5D42005550FC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2F09FDF01B9D5D42005550FC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2F09FDD71B9D5D42005550FC;
+					};
+				};
+			};
+			buildConfigurationList = 2F09FDD31B9D5D42005550FC /* Build configuration list for PBXProject "GradualNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F09FDCF1B9D5D42005550FC;
+			productRefGroup = 2F09FDD91B9D5D42005550FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F09FDD71B9D5D42005550FC /* GradualNavigationBar */,
+				2F09FDF01B9D5D42005550FC /* GradualNavigationBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F09FDD61B9D5D42005550FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09FDE71B9D5D42005550FC /* Main.storyboard in Resources */,
+				2F09FDEC1B9D5D42005550FC /* LaunchScreen.xib in Resources */,
+				2F09FDE91B9D5D42005550FC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09FDEF1B9D5D42005550FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F09FDD41B9D5D42005550FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09FDE41B9D5D42005550FC /* ViewController.m in Sources */,
+				2F09FDE11B9D5D42005550FC /* AppDelegate.m in Sources */,
+				2F09FE041B9D834E005550FC /* UINavigationBar+GradualColor.m in Sources */,
+				2F09FDDE1B9D5D42005550FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09FDED1B9D5D42005550FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09FDF81B9D5D42005550FC /* GradualNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F09FDF31B9D5D42005550FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F09FDD71B9D5D42005550FC /* GradualNavigationBar */;
+			targetProxy = 2F09FDF21B9D5D42005550FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F09FDE51B9D5D42005550FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F09FDE61B9D5D42005550FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F09FDEA1B9D5D42005550FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F09FDEB1B9D5D42005550FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F09FDF91B9D5D42005550FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F09FDFA1B9D5D42005550FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F09FDFC1B9D5D42005550FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradualNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F09FDFD1B9D5D42005550FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradualNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F09FDFF1B9D5D42005550FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GradualNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradualNavigationBar.app/GradualNavigationBar";
+			};
+			name = Debug;
+		};
+		2F09FE001B9D5D42005550FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GradualNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradualNavigationBar.app/GradualNavigationBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F09FDD31B9D5D42005550FC /* Build configuration list for PBXProject "GradualNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09FDF91B9D5D42005550FC /* Debug */,
+				2F09FDFA1B9D5D42005550FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F09FDFB1B9D5D42005550FC /* Build configuration list for PBXNativeTarget "GradualNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09FDFC1B9D5D42005550FC /* Debug */,
+				2F09FDFD1B9D5D42005550FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F09FDFE1B9D5D42005550FC /* Build configuration list for PBXNativeTarget "GradualNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09FDFF1B9D5D42005550FC /* Debug */,
+				2F09FE001B9D5D42005550FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F09FDD01B9D5D42005550FC /* Project object */;
+}
